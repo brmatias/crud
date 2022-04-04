@@ -3,4 +3,4 @@ from crud import crud
 
 
 if __name__== "__main__":
-    crud.read()
+    crud.delete('pessoas', 'nome', 'Guilherme' )
